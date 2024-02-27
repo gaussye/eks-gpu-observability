@@ -11,8 +11,8 @@ NVDA DGCM是用于在大规模基于Linux的集群环境中管理NVIDIA GPU的�
 
 
 
-## DGM EXPORTER
-DCGM exporter监控堆栈通常由收集器、存储指标的时序数据库以及可视化层组成。一种流行的开源堆栈是Prometheus,它与Grafana作为可视化工具结合使用,用于创建丰富的仪表板。Prometheus还包括Alertmanager来创建和管理通知。Prometheus与kube-state-metrics和node_exporter一起部署,以暴露Kubernetes API对象的集群级指标和节点级指标,如CPU利用率。图1显示了Prometheus的示例架构
+## DGCM EXPORTER
+DGCM exporter监控堆栈通常由收集器、存储指标的时序数据库以及可视化层组成。一种流行的开源堆栈是Prometheus,它与Grafana作为可视化工具结合使用,用于创建丰富的仪表板。Prometheus还包括Alertmanager来创建和管理通知。Prometheus与kube-state-metrics和node_exporter一起部署,以暴露Kubernetes API对象的集群级指标和节点级指标,如CPU利用率。图1显示了Prometheus的示例架构
 
 ![](resource/prometheus.png)
 
